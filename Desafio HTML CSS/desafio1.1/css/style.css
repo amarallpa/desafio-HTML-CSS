@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 100%;
+    --font-padrao: helvetica;
+    
+
+}
+
+
+
+#header-top {
+    width: 100%;
+    height: 40px;
+    background-color:#212121;
+    font-family: var(--font-padrao);
+    text-align:  right; 
+    display: flex;
+    
+}
+
+
+
+nav#menu {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    
+}
+
+nav#menu > .item_menu {
+     text-decoration: none;
+     color:#fff;
+     
+     padding: 10px;
+     
+      
+     
+    }
+ 
+    nav#menu > .item_menu:hover {
+        text-decoration: none;
+        background-color: #F9A825;
+        
+    }
+
+    .item_menu#home{
+        background-color: #F9A825;
+        border-radius: 10px;
+    }
+   
+
+    
+    .texto {
+        background-color:azure;
+        color: black;
+        font-family: var(--font-padrao);
+        text-align: center;
+        border-right:2px dotted black;
+        width: 250px;
+        height: 100px;
+        margin: 50px;
+        padding: 25px;
+        
+    }
+
+
+        
+    
+
+     .formulario{
+        color: black;
+        font-family: var(--font-padrao);
+        text-align: center;
+    }
+   
+
+main {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+   padding: 50PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: auto;
+    height: auto;
+    padding: 2px;
+   
+}
+
+label{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    font-family: var(--font-padrao);
+}
+
+.text{
+    width: auto;
+    height: 30px;
+    margin: 1px solid black ;
+    font-family: var(--font-padrao);
+    
+}
+
+.div{
+    
+    width: 250px;
+    height: 100px;
+    padding: 20px;
+}
+
+
+.txt {
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.botao{
+    width: 50%;
+    height: 30px;
+}
+footer {
+    height: 80px;
+    margin-top:auto;
+    background-color: #212121;
+    color:#fff;
+    font-family: var(--font-padrao);
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    
+}
+
+span{
+    color:white;
+    font-family: var(--font-padrao);
+    margin: 0 auto;
+    padding: 10px;
+}
